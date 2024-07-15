@@ -1,0 +1,71 @@
+.criarTarefas{
+  width: 100%;
+  height: 84%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; 
+
+}
+.form {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  gap: 2px;
+  padding-left: 6rem;
+  margin-bottom: 0.5rem;
+}
+.form input {
+  width: 40rem;
+  height: 1.8rem;
+  padding-left: 2rem;
+  border-radius: 8px;
+  background: transparent;
+}
+.form  button{
+  padding: auto;
+  font-weight: bold;
+  background: #5baeb9;
+  color: black;
+  transition: color 0.1s, background 0.1s;
+}
+.form button:hover{
+  background: #0c8696;
+  color: white;
+}
+.countTarefas{
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+.listTarefas {
+  width: 95%;
+  height: 20rem;
+  margin: auto;
+  overflow-y: scroll;
+}
+.testo {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 7rem;
+  color: rgb(118, 178, 202);
+}
+.feitas{
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+  border: 1px solid gray;
+}
+.feitas > p{
+  margin-top: 1px;
+}
+.feitas > button {
+  height: 1.8rem;
+  margin-top:-2px;
+  background: transparent;
+  border: none;
+  color: rgb(204, 52, 52);
+}
+.feitas > button:focus{
+  outline: none;
+}

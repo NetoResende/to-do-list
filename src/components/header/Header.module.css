@@ -1,0 +1,12 @@
+.header {
+  width: full;
+  height: 3rem;
+  background: #333;
+  margin: 0 auto;
+  padding: 0.8rem;
+  text-align: center;
+  overflow: hidden;
+}
+strong {
+  color: #438af5;
+}
