@@ -1,7 +1,9 @@
-.app{
+.app {
   width: 60rem;
+  max-width: calc(100% - 30px);
   height: 30rem;
   background: #4e4c4c;
   border-radius: 8px;
-  margin-left: 13rem;
+  margin: 0 auto;
+  margin-top: 7rem;
 }
